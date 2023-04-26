@@ -141,7 +141,7 @@
     -->
     <xsl:variable name="mlangs">
         <!-- <language xml:lang="dan"/> -->
-    <language xml:lang="swe"/><language xml:lang="tur"/></xsl:variable>
+    <language xml:lang="tur"/><language xml:lang="swe"/></xsl:variable>
 
     <!--
         This is automatically added by add_files_to_corpus if a parallel file
@@ -176,13 +176,13 @@
         <parallel_text xml:lang="smn" location=""/>
         <parallel_text xml:lang="sms" location=""/>
         <parallel_text xml:lang="swe" location="om-umo.html"/>
-    <parallel_text location="o-umo-u-serbokroatiska.html" xml:lang="hbs"/>
-<parallel_text location="umo.html" xml:lang="ara"/>
-<parallel_text location="sobre-umo.html" xml:lang="spa"/>
-<parallel_text location="umo-en-francais.html" xml:lang="fra"/>
-<parallel_text location="li-ser-umo.html" xml:lang="kmr"/>
-<parallel_text location="persiska.html" xml:lang="fas"/>
-<parallel_text location="o-umo-polska.html" xml:lang="pol"/>
+    <parallel_text xml:lang="hbs" location="o-umo-u-serbokroatiska.html"/>
+<parallel_text xml:lang="ara" location="umo.html"/>
+<parallel_text xml:lang="spa" location="sobre-umo.html"/>
+<parallel_text xml:lang="fra" location="umo-en-francais.html"/>
+<parallel_text xml:lang="kmr" location="li-ser-umo.html"/>
+<parallel_text xml:lang="fas" location="persiska.html"/>
+<parallel_text xml:lang="pol" location="o-umo-polska.html"/>
 </xsl:variable>
 
     <!--
